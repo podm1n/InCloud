@@ -84,8 +84,8 @@ jobs:
           git add output/dirout.tar.gz
       - name: Commit results to Github
         run: |
-          git config --local user.email "dumphash@163.com"
-          git config --global user.name "self"
+          git config --local user.email "tomfang1020@gmail.com"
+          git config --global user.name "podm1n"
           git commit -m "InCloud Report" -a --allow-empty
       - name: Push changes
         uses: ad-m/github-push-action@master
