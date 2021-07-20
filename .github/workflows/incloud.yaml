@@ -85,7 +85,7 @@ jobs:
       - name: Commit results to Github
         run: |
           git config --local user.email "dumphash@163.com"
-          git config --global user.name "self
+          git config --global user.name "self"
           git commit -m "InCloud Report" -a --allow-empty
       - name: Push changes
         uses: ad-m/github-push-action@master
